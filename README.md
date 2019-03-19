@@ -10,8 +10,17 @@ Friend Finder is deployed to Heroku @ https://friend-finder-damia.herokuapp.com/
 
 
 ## Technologies Used:
+<ul>
+<li>nodeJS</li>
+<li>Bootstrap</li>
+</ul>
 
-nodeJS 
-Bootstrap
-npm packages: express, path, body-parser
+## Npm Packages:
+
+<ul>
+<li>path</li>
+<li>body-parser</li>
+<li>express</li>
+</ul>
+
 
