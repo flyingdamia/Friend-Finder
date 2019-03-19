@@ -1,0 +1,271 @@
+<html>
+<head>
+    <title>
+        Friend Finder
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--BS JQ-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body style = background-color:lightgoldenrodyellow>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <p class="home"><i class="fa fa-address-card-o" id="card" aria-hidden="true"></i>Home</p>
+
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row survey">
+        <div class="col-md-9">
+            <div class="panel panel-default" style= "margin-left: 450px">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Survey Questions</h3>
+                </div>
+                <div class="panel-body" style = background-color:lightgoldenrodyellow>
+                    <strong>About You</strong><span> Be sure to answer all the questions</span>
+                    
+                    <div class="row about">
+                        <div class="col-md-5">
+                            <strong>Name</strong>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="name" placeholder="First and Last Name"
+                                    aria-describedby="     basic-addon1">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <strong>Link to Photo<strong>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="image"
+                                            placeholder="" aria-describedby="     basic-addon1">
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="row questions">
+                        <div class="col-md-10">
+                            <strong>Question 1</strong>
+                            <h5>
+                                You love to play piano
+                            </h5>
+                            <select class="form-control question" id="one">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 2</strong>
+                            <h5>
+                                You love to fly 
+                            </h5>
+                            <select class="form-control question" id="two">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 3</strong>
+                            <h5>
+                               You love to be lazy
+                            </h5>
+                            <select class="form-control question" id="three">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 4</strong>
+                            <h5>
+                               You don't like to take shower
+                            </h5>
+                            <select class="form-control question" id="four">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 5</strong>
+                            <h5>
+                                You are a trouble maker
+                            </h5>
+                            <select class="form-control question" id="five">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 6</strong>
+                            <h5>
+                               Your favorite bedding item is blanket
+                            </h5>
+                            <select class="form-control question" id="six">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 7</strong>
+                            <h5>
+                                Your best friend is animal
+                            </h5>
+                            <select class="form-control question" id="seven">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 8</strong>
+                            <h5>
+                                You are nerd
+                            </h5>
+                            <select class="form-control question" id="eight">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 9</strong>
+                            <h5>
+                                You are social
+                            </h5>
+                            <select class="form-control question" id="nine">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-10">
+                            <strong>Question 10</strong>
+                            <h5>
+                                You like to whistle
+                            </h5>
+                            <select class="form-control question" id="ten">
+                                <option class="place"> -- Select a response --</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary" id="add-survey">Find a Match</button>
+                    <a href="/api/friends">API Friends List</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+           
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Closest Friend Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" class="materialboxed" width="500" src="">
+                </div>
+                <div class="modal-footer">
+                   
+                    <button type="button" class="btn btn-default"><a href="./survey" class="modal-close" id="close">New
+                            Survey</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $("#add-survey").on("click", function (event) {
+            event.preventDefault();
+
+            var newSurvey = {
+                name: $("#name").val().trim(),
+                photo: $("#image").val().trim(),
+                scores: [
+                    $("#one").val().trim(),
+                    $("#two").val().trim(),
+                    $("#three").val().trim(),
+                    $("#four").val().trim(),
+                    $("#five").val().trim(),
+                    $("#six").val().trim(),
+                    $("#seven").val().trim(),
+                    $("#eight").val().trim(),
+                    $("#nine").val().trim(),
+                    $("#ten").val().trim()
+                ]
+            }
+
+
+            $.post("/api/friends", newSurvey).done(function (data) {
+                $("#matchName").text(data.matchName);
+                $('#matchImg').attr("src", data.matchImage);
+                $("#resultsModal").modal('toggle');
+            });
+
+        })
+    </script>
+    <footer class="footer-basic-centered">
+        <p class="footer-company-motto">Friend Finder <i class="fa fa-address-card-o" aria-hidden="true"></i></p>
+        <p class="footer-links">
+            <a href="https://github.com/flyingdamia/Friend-Finder" target="_blank" alt="Github Repo">Github <i
+                    class="fa fa-github" aria-hidden="true"></i></a>
+        </p>
+      
+    </footer>
+</body>
+
+</html>
