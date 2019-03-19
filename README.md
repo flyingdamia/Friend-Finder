@@ -6,7 +6,7 @@ This app is a psuedo dating application.  It compares your answers with other us
 
 ## Heroku demo
 
-Friend Finder is deployed to Heroku @ 
+Friend Finder is deployed to Heroku @ https://friend-finder-damia.herokuapp.com/
 
 
 ## Technologies Used:
